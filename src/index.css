@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+body{
+    font-family: "Lexend", sans-serif;
+}
+:root {
+  --primary: #efa213;
+  --secondary: #fcab14;
+  --text: #636363;
+  --gray: #3d3c3c;
+  --white: #ffffff;
+  --black: #000000;
+  --fwhite: #f8f9fa;
+  --e-white: #e8e1e1;
+  --thim-main-menu-text-hover-color: #fc5739;
+  --thim-sticky-bg-main-menu-color: #0a397f;
+  --thim-sticky-main-menu-text-color: #333333;
+  --thim_sticky_main_menu_text_color_rgb: 51, 51, 51;
+  --thim-sticky-main-menu-text-hover-color: #fc5739;
+  --thim-sub-menu-border-color: rgba(43, 43, 43, 0);
+  --thim-sub-menu-text-color: #999;
+  --thim-sub-menu-text-color-hover: #333;
+  --thim-mobile-menu-text-color: #777;
+  --thim-mobile-menu-text-hover-color: #2e8ece;
+  --thim-footer-font-title-font-size: 16px;
+  --thim-footer-font-title-font-weight: 600;
+  --thim-footer-font-size: 16px;
+  --thim-font-body-font-family: Lexend;
+  --thim-font-body-font-size: 16px;
+  --thim-font-body-line-height: 1.6em;
+  --thim-font-body-color: #636363;
+  --thim-font-title-color: #3d3c3c;
+}
