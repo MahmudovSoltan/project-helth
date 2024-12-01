@@ -9,6 +9,8 @@ import { RiLeafLine } from "react-icons/ri";
 import WhatIdo from "../../components/homeComp/WhatIdo";
 import CoursesFilter from "../../components/homeComp/coursesFilter";
 import CoursesCard from "../../components/homeComp/CoursesCard";
+import MotivationComp from "../../components/homeComp/MotivationComp";
+import EventsComp from "../../components/homeComp/EventsComp";
 const Home = () => {
   return (
     <>
@@ -76,6 +78,12 @@ const Home = () => {
       <section>
         <CoursesFilter/>
         <CoursesCard/>
+      </section>
+      <section>
+        <MotivationComp/>
+      </section>
+      <section>
+        <EventsComp/>
       </section>
     </>
   );

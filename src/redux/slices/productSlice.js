@@ -15,7 +15,7 @@ const initialState = {
     {
       title: "Business Analytics Course Program(Data Scientist)",
       category: "Career Coaching",
-      price: 80.0,
+      price:"$80.0",
       img: "https://coaching.thimpress.com/healthy-coaching/wp-content/uploads/sites/49/2022/09/course-1.jpg",
       lessons: "7",
       students: "28",
@@ -25,7 +25,7 @@ const initialState = {
     {
       title: "Mini MBA Course – Lean Business",
       category: "Career Coaching",
-      price: 30.0,
+      price: "$30.0",
       img: "https://coaching.thimpress.com/healthy-coaching/wp-content/uploads/sites/49/2022/09/course-2.png",
       lessons: "8",
       students: "32",
@@ -127,6 +127,7 @@ const initialState = {
   ],
   priceSort: false,
   index: 1,
+  selectedCategory:"Career Coaching"
 };
 
 export const productSlice = createSlice({
@@ -139,8 +140,11 @@ export const productSlice = createSlice({
     setindex2: (state) => {
       state.index -= 1;
     },
+    setSelectedCategory: (state, action) => {
+      state.selectedCategory = action.payload;
+    },
   },
 });
 
-export const { setIndex, setindex2 } = productSlice.actions;
+export const { setIndex, setindex2, setSelectedCategory } = productSlice.actions;
 export default productSlice.reducer;

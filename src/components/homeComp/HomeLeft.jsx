@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { RiLeafLine } from "react-icons/ri";
 const HomeLeft = () => {
   return (
-    <div className='w-[50%] h-[100vh] flex items-start flex-col justify-center px-[30px] home_left'>
+    <div className=' flex items-start flex-col justify-center px-[30px] home_left'>
      <h6 className="home_left_top">
      I'll show you how.
      </h6>

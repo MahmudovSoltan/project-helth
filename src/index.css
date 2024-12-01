@@ -10,6 +10,11 @@
 body{
     font-family: "Lexend", sans-serif;
 }
+img{
+  height: 100%;
+  object-fit: cover;
+
+}
 :root {
   --primary: #efa213;
   --secondary: #fcab14;
@@ -29,12 +34,6 @@ body{
   --thim-sub-menu-text-color-hover: #333;
   --thim-mobile-menu-text-color: #777;
   --thim-mobile-menu-text-hover-color: #2e8ece;
-  --thim-footer-font-title-font-size: 16px;
-  --thim-footer-font-title-font-weight: 600;
-  --thim-footer-font-size: 16px;
-  --thim-font-body-font-family: Lexend;
-  --thim-font-body-font-size: 16px; 
-  --thim-font-body-line-height: 1.6em;
   --thim-font-body-color: #636363;
   --thim-font-title-color: #3d3c3c;
 }
