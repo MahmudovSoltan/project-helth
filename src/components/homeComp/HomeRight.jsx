@@ -1,6 +1,6 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination } from "swiper/modules";
+import { Autoplay, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 
@@ -15,10 +15,14 @@ const HomeRight = () => {
   return (
     <div className="home_swiper">
       <Swiper
-        loop={true}
-        pagination={pagination}
-        modules={[Pagination]}
-        className="mySwiper"
+          loop={true}
+          pagination={pagination}
+          autoplay={{
+            delay: 3000,
+            disableOnInteraction: false, 
+          }}
+          modules={[Pagination, Autoplay]}
+          className="mySwiper"
       >
         <SwiperSlide>
           <img

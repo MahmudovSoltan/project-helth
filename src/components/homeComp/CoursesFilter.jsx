@@ -22,7 +22,7 @@ const CoursesFilter = () => {
   ];
 
   const handleCategoryClick = (category) => {
-    dispatch(setSelectedCategory(category.category)); // Reducer funksiyasını çağırırıq
+    dispatch(setSelectedCategory(category.category));
   };
 
   return (

@@ -176,13 +176,13 @@
 .category_title:hover {
   background-color: var(--primary);
   color: var(--white);
-  border: none;
+  border: 1px solid var(--primary);
 }
 
 .category_title_active {
   background-color: var(--primary);
   color: var(--white);
-  border: none;
+  border: 1px solid var(--primary);
 }
 .product_cartd_bottom div {
   font-size: 14px;
@@ -197,10 +197,10 @@
   font-weight: 600;
   line-height: 1.6em;
   height: 45px;
-  display: -webkit-box; /* Flexbox strukturuna əsaslanır */
-  -webkit-box-orient: vertical; /* Şaquli mətn axışı */
-  -webkit-line-clamp: 2; /* Maksimum 2 sətir göstər */
-  overflow: hidden; /* Artıq mətni gizlə */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
   text-overflow: ellipsis;
 }
 .product_cartd_bottom h4 {
@@ -249,37 +249,61 @@
 }
 
 .event_card_image {
+  position: relative;
   width: 50%;
   height: 278px;
+}
+.card_image_dates {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  gap: 20px;
+  text-align: center;
 }
 .event_cart_content {
   width: 50%;
   padding: 30px;
+}
+.card_date {
+  background-color: var(--white);
+  padding: 8px 12px;
+  border-radius: 10px;
+}
+.card_date p {
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--black);
+}
+.card_date span {
+  font-size: 12px;
+  color: var(--gray);
 }
 .events_left_img {
   position: relative;
   width: 240px;
   margin-bottom: 20px;
 }
-.events_left_image_icon{
+.events_left_image_icon {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   font-size: 40px;
   color: var(--white);
   opacity: 0;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
-.events_left_img:hover .events_left_image_icon{
+.events_left_img:hover .events_left_image_icon {
   opacity: 1;
   cursor: pointer;
 }
-.events_left_img img{
+.events_left_img img {
   border-radius: 10px;
   cursor: pointer;
 }
-.event_card_image img{
+.event_card_image img {
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
@@ -321,67 +345,149 @@
   margin: 0 0 5px 0;
   line-height: 1.4em;
 }
-.event_cart_content_date div:nth-child(2){
+.event_cart_content_date div:nth-child(2) {
   font-size: 14px;
   font-weight: 600;
 }
-.event_cart_content_top{
+.event_cart_content_top {
   display: flex;
   align-items: center;
   gap: 20px;
 }
-.event_cart_content_top h6{
+.event_cart_content_top h6 {
   font-size: 18px;
   font-weight: 600;
   line-height: 1.4em;
-  color: var(  --gray);
-  transition: all .3s ease-in-out;
+  color: var(--gray);
+  transition: all 0.3s ease-in-out;
   cursor: pointer;
 }
-.event_cart_content_top h6:hover{
+.event_cart_content_top h6:hover {
   color: var(--primary);
 }
-.event_cart_content_info{
+.event_cart_content_info {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 20px;
   margin-top: 10px;
 }
-.event_content_data{
+.event_content_data {
   display: flex;
   align-items: center;
   gap: 5px;
   color: var(--text);
   font-size: 14px;
 }
-.event_cart_content p{
+.event_cart_content p {
   margin-top: 30px;
   line-height: 25px;
   color: var(--text);
 }
-.events_left_input{
+.events_left_input {
   width: 240px;
   background-color: var(--white);
   border-radius: 5px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-
 }
-.events_left_input input{
+.events_left_input input {
   background-color: transparent;
   outline: none;
-   padding: 5px 3px 5px 10px;
+  padding: 5px 3px 5px 10px;
 }
-.events_left_input button{
+.events_left_input button {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 34px;
   background-color: var(--primary);
   color: var(--white);
-  padding: 5px  10px;
+  padding: 5px 10px;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
+}
+.btn {
+  width: 193px;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 15px 35px;
+  border-radius: 15px;
+  color: var(--white);
+  background-color: var(--primary);
+  margin-top: 30px;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+.prodcats_left {
+  background-image: url(https://coaching.thimpress.com/healthy-coaching/wp-content/uploads/sites/49/2023/09/background-podcast.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px 30px;
+}
+.prodcats_left img {
+  border-radius: 50%;
+}
+.podcast_epo {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--white);
+  margin: 40px 0px 0px 0px;
+  line-height: 1.4em;
+}
+.author_name {
+  color: var(--white);
+  font-weight: 600;
+  line-height: 1.4em;
+}
+.podcast_player {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--white);
+  font-size: 28px;
+  margin-top: 40px;
+  cursor: pointer;
+}
+.articlies_card {
+  width: 23%;
+}
+.articlies_card_image img {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  cursor: pointer;
+}
+.articlies_card_image {
+  position: relative;
+}
+
+
+.add_button_filter2{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  background-color: var(--white);
+  padding: 10px;
+  border-radius: 50%;
+  color: var(--primary);
+  cursor: pointer;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+.add_button_filter2:hover{
+  background-color: var(--primary);
+  color: var(--white);
+}
+.articlies_card_image:hover .add_button_filter2{
+  opacity: 1;
 }

@@ -7,10 +7,13 @@ import { FaRegCheckCircle } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { RiLeafLine } from "react-icons/ri";
 import WhatIdo from "../../components/homeComp/WhatIdo";
-import CoursesFilter from "../../components/homeComp/coursesFilter";
+import CoursesFilter from "../../components/homeComp/CoursesFilter";
 import CoursesCard from "../../components/homeComp/CoursesCard";
 import MotivationComp from "../../components/homeComp/MotivationComp";
 import EventsComp from "../../components/homeComp/EventsComp";
+import PodcastComp from "../../components/homeComp/PodcastComp";
+import ArticelComp from "../../components/homeComp/ArticelComp";
+import TestiomonialsComp from "../../components/homeComp/TestiomonialsComp";
 const Home = () => {
   return (
     <>
@@ -84,6 +87,15 @@ const Home = () => {
       </section>
       <section>
         <EventsComp/>
+      </section>
+      <section>
+        <PodcastComp/>
+      </section>
+      <section>
+        <ArticelComp/>
+      </section>
+      <section>
+        <TestiomonialsComp/>
       </section>
     </>
   );
