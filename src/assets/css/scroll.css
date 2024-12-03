@@ -1,0 +1,21 @@
+.scrol_button {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white);
+  font-size: 26px;
+  width: 45px;
+  height: 45px;
+  font-weight: bolder;
+  background-color: var(--primary);
+  bottom: 40px;
+  right: 40px;
+  border-radius: 10px;
+  transition: all .3s ease-out;
+  z-index: 999999;
+
+}
+.scrol_button:hover {
+  background-color: var(--secondary);
+}

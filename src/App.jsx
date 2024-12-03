@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './pages/home/Home';
 import Layout from './components/Leyout/Layout';
+import Scrollbutton from './pages/ScrollTopButton/Scrollbutton';
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
           {/* Digər route-lar əlavə edilə bilər */}
         </Route>
       </Routes>
+      <Scrollbutton/>
     </BrowserRouter>
   );
 };
