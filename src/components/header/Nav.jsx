@@ -1,12 +1,12 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { FaAngleDown, FaAngleRight } from "react-icons/fa6";
 const Nav = () => {
   return (
     <nav>
       <ul className=" flex items-center gap-[10px]">
         <li>
-          <Link>Home</Link>
+          <NavLink to={"/"}>Home</NavLink>
         </li>
         <li className="flex items-center">
           <Link>Courses</Link>

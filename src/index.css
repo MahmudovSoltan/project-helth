@@ -9,6 +9,8 @@
 }
 body{
     font-family: "Lexend", sans-serif;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 img{
   height: 100%;
@@ -56,4 +58,7 @@ img{
 }
 img{
   width: 100%;
+}
+.active{
+  color: var(--primary);
 }

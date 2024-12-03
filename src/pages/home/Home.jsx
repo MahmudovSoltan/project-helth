@@ -1,7 +1,7 @@
 import React from "react";
 import HomeLeft from "../../components/homeComp/HomeLeft";
 import HomeRight from "../../components/homeComp/HomeRight";
-import "./home.css";
+import "../../assets/css/home.css";
 import CountUp from "react-countup";
 import { FaRegCheckCircle } from "react-icons/fa";
 import { Link } from "react-router-dom";
@@ -14,6 +14,7 @@ import EventsComp from "../../components/homeComp/EventsComp";
 import PodcastComp from "../../components/homeComp/PodcastComp";
 import ArticelComp from "../../components/homeComp/ArticelComp";
 import TestiomonialsComp from "../../components/homeComp/TestiomonialsComp";
+import CompaniesComp from "../../components/homeComp/CompaniesComp";
 const Home = () => {
   return (
     <>
@@ -96,6 +97,9 @@ const Home = () => {
       </section>
       <section>
         <TestiomonialsComp/>
+      </section>
+      <section>
+        <CompaniesComp/>
       </section>
     </>
   );

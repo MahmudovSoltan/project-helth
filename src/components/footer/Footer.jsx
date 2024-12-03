@@ -1,10 +1,14 @@
 import React from 'react'
-
+import '../../assets/css/footer.css'
+import FooterTop from './FooterTop'
+import FooterBottom from './FooterBottom'
 const Footer = () => {
   return (
-    <div>
-      Footer
-    </div>
+    <footer>
+
+       <FooterTop/>
+       <FooterBottom/>
+    </footer>
   )
 }
 
