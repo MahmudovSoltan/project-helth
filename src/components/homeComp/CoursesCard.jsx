@@ -2,20 +2,14 @@ import React from "react";
 import { FaRegUser, FaSignal } from "react-icons/fa";
 import { LuFileSpreadsheet } from "react-icons/lu";
 import { MdAdd } from "react-icons/md";
-import { useSelector } from "react-redux";
 
-const CoursesCard = () => {
-  const { products,selectedCategory } = useSelector((state) => state.products);
-  const filterProduct =
-  selectedCategory === "All"
-    ? products
-    : products.filter((item) => item.category === selectedCategory);
+const CoursesCard = ({filterProduct}) => {
 
   return (
     <div className="flex flex-wrap gap-[20px] px-[50px] py-[15px]">
       {filterProduct.map((item, i) => (
-        <div className="w-[410px] border rounded-lg ">
-          <div className="filter_img w-[410px] h-[310px] relative">
+        <div key={i} className="w-[32%] border rounded-lg ">
+          <div className="filter_img w-[100%]  relative">
           <img className=" cursor-pointer" src={item.img} alt="" />
           <span className='add_button_filter'><MdAdd/></span>
           </div>
@@ -38,9 +32,14 @@ const CoursesCard = () => {
                 <img className="cursor-pointer w-[45px] h-[45px] rounded-full" src="https://coaching.thimpress.com/healthy-coaching/wp-content/uploads/learn-press-profile/1/13ca851b2d84d922db74349bea6858ce.jpeg" alt="" />
                 <h6 className="!font-semibold">Michael</h6>
               </div>
-              <div className="!text-[28px] !font-semibold">
-                {item.price}
+                {
+                  item.price ==0? <div className="!text-[28px] !font-semibold">
+                  Free
+                </div>:  <div className="!text-[28px] !font-semibold">
+                ${item.price}.00
               </div>
+                }
+            
             </div>
           </div>
         </div>

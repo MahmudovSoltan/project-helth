@@ -1,0 +1,127 @@
+.course_filter_nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  margin-top: 100px;
+}
+.course_filter_nav_right {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--fwhite);
+  padding: 30px 20px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  color: var(--gray);
+  font-size: 18px;
+}
+.course_filter_nav_right select {
+  background-color: transparent;
+  cursor: pointer;
+}
+.course_filter_nav_left {
+  width: 20%;
+  background-color: var(--fwhite);
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  color: var(--gray);
+  font-size: 18px;
+}
+.course_filter_nav_left div {
+  background-color: var(--white);
+  background-color: #fff;
+  padding-left: 5px;
+  border: none;
+}
+.course_filter_nav_left input {
+  width: 100%;
+  padding: 7px 10px 6px 5px;
+  outline: none;
+  color: var(--gray);
+}
+
+.courses_side_bar_container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-right: 50px;
+}
+.courses_side_bar_container div {
+  background-color: var(--fwhite);
+  border-radius: 10px;
+}
+.courses_side_bar_container h3 {
+  font-size: 22px;
+  margin-bottom: 16px;
+  color: var(--thim-font-title-color);
+  font-weight: 600;
+}
+.category_box {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  color: var(--thim-font-title-color);
+  cursor: pointer;
+  margin-bottom: 8px;
+}
+.check_box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 14px;
+  height: 14px;
+  border: 1px solid #b4b9be;
+  border-radius: 1px !important;
+  color: var(--primary);
+}
+.paginatiom_container {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+.pagination_btn {
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--fwhite);
+  cursor: pointer;
+  border-radius: 10px;
+  color: var(--text);
+  transition: all 0.3s ease-out;
+}
+.pagination_btn:hover {
+  background-color: var(--primary);
+  color: var(--white);
+}
+.pagination_btn_active {
+  background-color: var(--primary);
+  color: var(--white);
+}
+.check_border{
+  border: 1px solid var(--primary);
+}
+.reset_btn{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 15px 35px;
+  border-radius: 15px;
+  color: var(--white);
+  background-color: var(--primary);
+  margin-top: 30px;
+  font-weight: 600;
+  transition: all 0.3s;
+  margin-bottom: 80px;
+}
+.reset_btn:hover{
+  background-color: var(--secondary);
+}

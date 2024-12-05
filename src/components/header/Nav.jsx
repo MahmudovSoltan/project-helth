@@ -9,7 +9,7 @@ const Nav = () => {
           <NavLink to={"/"}>Home</NavLink>
         </li>
         <li className="flex items-center">
-          <Link>Courses</Link>
+          <NavLink to={"/courses"}>Courses</NavLink>
           <span>
             <FaAngleDown />
           </span>
