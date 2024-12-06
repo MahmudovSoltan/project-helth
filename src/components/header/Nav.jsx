@@ -56,7 +56,7 @@ const Nav = () => {
           </div>
         </li>
         <li className="flex items-center">
-          <Link>Pages</Link>
+          <NavLink to={"/aboutus"}>Pages</NavLink>
           <span>
             <FaAngleDown />
           </span>

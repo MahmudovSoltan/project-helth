@@ -1,0 +1,10 @@
+.skils_right{
+    width: 50%;
+}
+.skils_title{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.3em;
+    color: var( --thim-font-title-color);
+    padding-bottom: 10px;
+}
