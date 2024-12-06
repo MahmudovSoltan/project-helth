@@ -31,10 +31,10 @@ const Nav = () => {
           </div>
         </li>
         <li>
-          <Link>Podcast</Link>
+          <NavLink to={"/podcast"}>Podcast</NavLink>
         </li>
         <li className="flex items-center">
-          <Link>Blog</Link>
+          <NavLink to={"/blog"}>Blog</NavLink>
           <span>
             <FaAngleDown />
           </span>

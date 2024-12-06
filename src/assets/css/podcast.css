@@ -1,0 +1,25 @@
+.podcast_title{
+    font-weight: 600;
+    color: var(--gray);
+    line-height: 1.3em;
+    font-size: 32px;
+    margin-top: 65px;
+    margin-bottom: 30px;
+}
+.podcast_text{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--text);
+    margin-bottom: 30px;
+}
+.podcast_card_conatiner{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 45px;
+    background-color: var(--fwhite);
+}
+.podcast_card_img img{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}

@@ -62,7 +62,7 @@ const Courses = () => {
           <CoursesCard filterProduct={newpagination} />
           <Pagination setIndex={setIndex} index={index} totalPge={buttons} />
         </div>
-        <div className="w-[20%]">
+        <div className="w-[22%]">
           <CoursesSideBar
             setCategory={setCategory}
             category={category}

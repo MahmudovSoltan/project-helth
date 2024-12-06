@@ -3,7 +3,7 @@ import { FaAngleLeft, FaAngleRight } from "react-icons/fa";
 
 const Pagination = ({ setIndex, index, totalPge }) => {
   const nextPage = () => {
-    if (index < 2) {
+    if (index < totalPge.length) {
       setIndex(index + 1);
     }
   };
@@ -12,7 +12,7 @@ const Pagination = ({ setIndex, index, totalPge }) => {
       setIndex(index - 1);
     }
   };
-  console.log(totalPge.length,"totalPge.length");
+
   
   return (
 
@@ -42,7 +42,7 @@ const Pagination = ({ setIndex, index, totalPge }) => {
       ))}
       <button
         onClick={nextPage}
-        className={`pagination_btn ${index == 2 || totalPge.length ==1 ? "!hidden" : ""} `}
+        className={`pagination_btn ${index == totalPge.length || totalPge.length ==1 ? "!hidden" : ""} `}
       >
         <FaAngleRight />
       </button>

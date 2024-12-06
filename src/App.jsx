@@ -4,7 +4,8 @@ import Home from './pages/home/Home';
 import Layout from './components/Leyout/Layout';
 import Scrollbutton from './pages/ScrollTopButton/Scrollbutton';
 import Courses from './pages/courses/Courses';
-
+import Podcast from './pages/podcast/Podcast';
+import Blog from './pages/blog/Blog';
 const App = () => {
   window.scrollTo({
     top: 0,
@@ -16,6 +17,8 @@ const App = () => {
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path='/courses' element={<Courses />} />
+          <Route path='/podcast' element={<Podcast />} />
+          <Route path='/blog' element={<Blog />} />
         </Route>
       </Routes>
       <Scrollbutton/>
