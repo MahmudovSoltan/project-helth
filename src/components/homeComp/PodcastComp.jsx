@@ -37,6 +37,7 @@ const PodcastComp = () => {
       .toString()
       .padStart(2, "0")}`;
   };
+
   return (
     <div className="bg-[#f8f9fa] mt-[120px] ">
       <div className="container flex justify-between">
@@ -49,9 +50,8 @@ const PodcastComp = () => {
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam.
           </p>
-          <Link className="btn">
+          <Link className="btn " to={"/podcast"}>
             <span>
-              {" "}
               <RiLeafLine size={25} />
             </span>
             Listen All

@@ -6,6 +6,11 @@ import CountUp from 'react-countup'
 import { Link } from 'react-router-dom'
 import SkilsComp from '../../components/aboutus/SkilsComp'
 import '../../assets/css/about.css'
+import CaruselComo from '../../components/aboutus/CaruselComo'
+import Certifications from '../../components/aboutus/Certifications'
+import ChooseUs from '../../components/aboutus/ChooseUs'
+import Experts from '../../components/aboutus/Experts'
+import Appointment from '../../components/aboutus/Appointment'
 const AboutUs = () => {
   return (
     <div>
@@ -63,6 +68,21 @@ const AboutUs = () => {
       </section>
       <section>
         <SkilsComp/>
+      </section>
+      <section>
+        <CaruselComo/>
+      </section>
+      <section>
+        <Certifications/>
+      </section>
+      <section>
+        <ChooseUs/>
+      </section>
+      <section>
+        <Experts/>
+      </section>
+      <section>
+        <Appointment/>
       </section>
     </div>
   )

@@ -22,6 +22,7 @@ const Home = () => {
   selectedCategory === "All"
     ? products
     : products.filter((item) => item.category === selectedCategory);
+    
   return (
     <>
       <section>
