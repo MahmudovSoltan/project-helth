@@ -7,6 +7,7 @@ import Courses from './pages/courses/Courses';
 import Podcast from './pages/podcast/Podcast';
 import Blog from './pages/blog/Blog';
 import AboutUs from './pages/aboutus/AboutUs';
+import Contact from './pages/contact/Contact';
 const App = () => {
   window.scrollTo({
     top: 0,
@@ -21,6 +22,7 @@ const App = () => {
           <Route path='/podcast' element={<Podcast />} />
           <Route path='/blog' element={<Blog />} />
           <Route path='/aboutus' element={<AboutUs />} />
+          <Route path='/contact' element={<Contact />} />
         </Route>
       </Routes>
       <Scrollbutton/>
