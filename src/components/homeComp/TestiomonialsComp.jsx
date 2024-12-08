@@ -34,15 +34,25 @@ const TestiomonialsComp = () => {
                     />
                   </div>
                   <div>
-                    <h6 className="text-[#3D3C3C] text-[18px] font-semibold">Lucinda</h6>
-                    <p className="text-[#3D3C3C] text-[14px] font-normal leading-[1.6em]"> Entrepreneur</p>
+                    <h6 className="text-[#3D3C3C] text-[18px] font-semibold">
+                      Lucinda
+                    </h6>
+                    <p className="text-[#3D3C3C] text-[14px] font-normal leading-[1.6em]">
+                      {" "}
+                      Entrepreneur
+                    </p>
                   </div>
                 </div>
-                <p className="text-[#636363] text-[16px] font-[600] tracking-wide">
-                I love Elizabeth’s workshops, using the plants from our meadows and hedgerows she always manages to come up with something.
+                <p className="text-[#636363] text-[16px]  xl:font-[600] tracking-wide">
+                  I love Elizabeth’s workshops, using the plants from our
+                  meadows and hedgerows she always manages to come up with
+                  something.
                 </p>
                 <div>
-                  <img src="https://coaching.thimpress.com/healthy-coaching/wp-content/uploads/sites/49/2023/08/star.png" alt="" />
+                  <img
+                    src="https://coaching.thimpress.com/healthy-coaching/wp-content/uploads/sites/49/2023/08/star.png"
+                    alt=""
+                  />
                 </div>
               </div>
             </SwiperSlide>
@@ -57,15 +67,25 @@ const TestiomonialsComp = () => {
                     />
                   </div>
                   <div>
-                    <h6 className="text-[#3D3C3C] text-[18px] font-semibold">Tony</h6>
-                    <p className="text-[#3D3C3C] text-[14px] font-normal leading-[1.6em]"> Entrepreneur</p>
+                    <h6 className="text-[#3D3C3C] text-[18px] font-semibold">
+                      Tony
+                    </h6>
+                    <p className="text-[#3D3C3C] text-[14px] font-normal leading-[1.6em]">
+                      {" "}
+                      Entrepreneur
+                    </p>
                   </div>
                 </div>
-                <p className="text-[#636363] text-[16px] font-[600] tracking-wide">
-                I love Elizabeth’s workshops, using the plants from our meadows and hedgerows she always manages to come up with something.
+                <p className="text-[#636363] text-[16px] xl:font-[600] tracking-wide">
+                  I love Elizabeth’s workshops, using the plants from our
+                  meadows and hedgerows she always manages to come up with
+                  something.
                 </p>
                 <div>
-                  <img src="https://coaching.thimpress.com/healthy-coaching/wp-content/uploads/sites/49/2023/08/star.png" alt="" />
+                  <img
+                    src="https://coaching.thimpress.com/healthy-coaching/wp-content/uploads/sites/49/2023/08/star.png"
+                    alt=""
+                  />
                 </div>
               </div>
             </SwiperSlide>
@@ -80,15 +100,25 @@ const TestiomonialsComp = () => {
                     />
                   </div>
                   <div>
-                    <h6 className="text-[#3D3C3C] text-[18px] font-semibold">Maria B</h6>
-                    <p className="text-[#3D3C3C] text-[14px] font-normal leading-[1.6em]"> Entrepreneur</p>
+                    <h6 className="text-[#3D3C3C] text-[18px] font-semibold">
+                      Maria B
+                    </h6>
+                    <p className="text-[#3D3C3C] text-[14px] font-normal leading-[1.6em]">
+                      {" "}
+                      Entrepreneur
+                    </p>
                   </div>
                 </div>
-                <p className="text-[#636363] text-[16px] font-[600] tracking-wide">
-                I love Elizabeth’s workshops, using the plants from our meadows and hedgerows she always manages to come up with something.
+                <p className="text-[#636363] text-[16px] xl:font-[600] tracking-wide">
+                  I love Elizabeth’s workshops, using the plants from our
+                  meadows and hedgerows she always manages to come up with
+                  something.
                 </p>
                 <div>
-                  <img src="https://coaching.thimpress.com/healthy-coaching/wp-content/uploads/sites/49/2023/08/star.png" alt="" />
+                  <img
+                    src="https://coaching.thimpress.com/healthy-coaching/wp-content/uploads/sites/49/2023/08/star.png"
+                    alt=""
+                  />
                 </div>
               </div>
             </SwiperSlide>
@@ -103,15 +133,25 @@ const TestiomonialsComp = () => {
                     />
                   </div>
                   <div>
-                    <h6 className="text-[#3D3C3C] text-[18px] font-semibold">Lucinda</h6>
-                    <p className="text-[#3D3C3C] text-[14px] font-normal leading-[1.6em]"> Entrepreneur</p>
+                    <h6 className="text-[#3D3C3C] text-[18px] font-semibold">
+                      Lucinda
+                    </h6>
+                    <p className="text-[#3D3C3C] text-[14px] font-normal leading-[1.6em]">
+                      {" "}
+                      Entrepreneur
+                    </p>
                   </div>
                 </div>
-                <p className="text-[#636363] text-[16px] font-[600] tracking-wide">
-                I love Elizabeth’s workshops, using the plants from our meadows and hedgerows she always manages to come up with something.
+                <p className="text-[#636363] text-[16px] xl:font-[600] tracking-wide">
+                  I love Elizabeth’s workshops, using the plants from our
+                  meadows and hedgerows she always manages to come up with
+                  something.
                 </p>
                 <div>
-                  <img src="https://coaching.thimpress.com/healthy-coaching/wp-content/uploads/sites/49/2023/08/star.png" alt="" />
+                  <img
+                    src="https://coaching.thimpress.com/healthy-coaching/wp-content/uploads/sites/49/2023/08/star.png"
+                    alt=""
+                  />
                 </div>
               </div>
             </SwiperSlide>
@@ -126,15 +166,25 @@ const TestiomonialsComp = () => {
                     />
                   </div>
                   <div>
-                    <h6 className="text-[#3D3C3C] text-[18px] font-semibold">Tony</h6>
-                    <p className="text-[#3D3C3C] text-[14px] font-normal leading-[1.6em]"> Entrepreneur</p>
+                    <h6 className="text-[#3D3C3C] text-[18px] font-semibold">
+                      Tony
+                    </h6>
+                    <p className="text-[#3D3C3C] text-[14px] font-normal leading-[1.6em]">
+                      {" "}
+                      Entrepreneur
+                    </p>
                   </div>
                 </div>
-                <p className="text-[#636363] text-[16px] font-[600] tracking-wide">
-                I love Elizabeth’s workshops, using the plants from our meadows and hedgerows she always manages to come up with something.
+                <p className="text-[#636363] text-[16px] xl:font-[600] tracking-wide">
+                  I love Elizabeth’s workshops, using the plants from our
+                  meadows and hedgerows she always manages to come up with
+                  something.
                 </p>
                 <div>
-                  <img src="https://coaching.thimpress.com/healthy-coaching/wp-content/uploads/sites/49/2023/08/star.png" alt="" />
+                  <img
+                    src="https://coaching.thimpress.com/healthy-coaching/wp-content/uploads/sites/49/2023/08/star.png"
+                    alt=""
+                  />
                 </div>
               </div>
             </SwiperSlide>
@@ -149,15 +199,25 @@ const TestiomonialsComp = () => {
                     />
                   </div>
                   <div>
-                    <h6 className="text-[#3D3C3C] text-[18px] font-semibold">Maria B</h6>
-                    <p className="text-[#3D3C3C] text-[14px] font-normal leading-[1.6em]"> Entrepreneur</p>
+                    <h6 className="text-[#3D3C3C] text-[18px] font-semibold">
+                      Maria B
+                    </h6>
+                    <p className="text-[#3D3C3C] text-[14px] font-normal leading-[1.6em]">
+                      {" "}
+                      Entrepreneur
+                    </p>
                   </div>
                 </div>
-                <p className="text-[#636363] text-[16px] font-[600] tracking-wide">
-                I love Elizabeth’s workshops, using the plants from our meadows and hedgerows she always manages to come up with something.
+                <p className="text-[#636363] text-[16px] xl:font-[600] tracking-wide">
+                  I love Elizabeth’s workshops, using the plants from our
+                  meadows and hedgerows she always manages to come up with
+                  something.
                 </p>
                 <div>
-                  <img src="https://coaching.thimpress.com/healthy-coaching/wp-content/uploads/sites/49/2023/08/star.png" alt="" />
+                  <img
+                    src="https://coaching.thimpress.com/healthy-coaching/wp-content/uploads/sites/49/2023/08/star.png"
+                    alt=""
+                  />
                 </div>
               </div>
             </SwiperSlide>

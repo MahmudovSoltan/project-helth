@@ -2,6 +2,7 @@ import React from "react";
 import HomeLeft from "../../components/homeComp/HomeLeft";
 import HomeRight from "../../components/homeComp/HomeRight";
 import "../../assets/css/home.css";
+import "../../assets/css/homeResponsive.css";
 import CountUp from "react-countup";
 import { FaRegCheckCircle } from "react-icons/fa";
 import { Link } from "react-router-dom";
@@ -31,8 +32,8 @@ const Home = () => {
           <HomeRight />
         </div>
       </section>
-      <section className="px-[50px] mt-[100px]">
-        <div className="home_second_section flex items-center mb-[80px]">
+      <section className="xl:px-[50px] lg:px-[20px] mt-[100px]">
+        <div className="home_second_section flex items-center justify-between mb-[80px]">
           <div className="home_second_section_left">
             <img
               src="https://coaching.thimpress.com/healthy-coaching/wp-content/uploads/sites/49/2023/08/home-section-welcome-1.png"
