@@ -10,18 +10,37 @@ import "swiper/css/pagination";
 const TestiomonialsComp = () => {
   return (
     <div className="mt-[120px] bg-[#f8f9fa] py-[105px]">
-      <div className="container flex  ">
-        <div className="w-[30%] flex items-center leading-[1.6em] text-[40px] font-semibold">
+      <div className="container flex   max-[1024px]:flex-col  max-[1024px]:items-center">
+        <div className="w-[30%] flex items-center leading-[1.6em] text-[40px] font-semibold  max-[1024px]:mb-[10px]">
           <h2>Testiomonials</h2>
         </div>
-        <div className="w-[70%] swiper_div">
+        <div className="w-[70%] swiper_div  max-[1024px]:w-full">
           <Swiper
             loop={true}
             slidesPerView={3}
             spaceBetween={30}
             freeMode={true}
+            breakpoints={{
+              350: {
+                slidesPerView: 1,
+                spaceBetween: 20,
+              },
+              640: {
+                slidesPerView: 2,
+                spaceBetween: 20,
+              },
+              768: {
+                slidesPerView: 2,
+                spaceBetween: 40,
+              },
+              1024: {
+                slidesPerView: 3,
+                spaceBetween: 50,
+              },
+            }}
             modules={[FreeMode, Pagination]}
             className="mySwiper"
+            
           >
             <SwiperSlide className="w-[325px]  ">
               <div className="flex flex-col items-start bg-white gap-6 py-[30px] px-[20px] rounded-lg">

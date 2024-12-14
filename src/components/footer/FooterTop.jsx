@@ -8,8 +8,8 @@ import { MdOutlineMarkEmailRead } from "react-icons/md";
 
 const FooterTop = () => {
   return (
-    <div className=" flex py-[105px] container justify-between">
-      <div className="w-[432px] flex flex-col gap-[30px]">
+    <div className=" flex max-[768px]:flex-col max-[768px]:items-center max-[768px]:text-center !py-[105px] container justify-between  max-[1024px]:pb-[50px]  max-[1024px]:gap-[30px]  max-[880px]:flex-wrap max-[880px]:">
+      <div className="w-[432px] flex max-[768px]:items-center flex-col gap-[30px]  max-[1024px]:w-[270px] max-[880px]:w-[40%]">
         <div className="w-[183px]">
           <img
             src="https://coaching.thimpress.com/healthy-coaching/wp-content/uploads/sites/49/2023/06/logo-white.png"
@@ -36,27 +36,27 @@ const FooterTop = () => {
           </div>
         </div>
       </div>
-      <div className="footer_content">
+      <div className="footer_content max-[768px]:items-center  max-[880px]:w-[40%]">
         <h5 className="footer_title">Useful Links</h5>
-        <div className="footer_links">
+        <div className="footer_links max-[768px]:text-center max-[768px]:items-center">
           <div className="footer_link">About Us</div>
           <div className="footer_link">Contact</div>
           <div className="footer_link">News</div>
           <div className="footer_link">Shop</div>
         </div>
       </div>
-      <div className="footer_content">
+      <div className="footer_content max-[768px]:items-center max-[768px]:text-center max-[880px]:w-[40%]">
         <h5 className="footer_title">Quick Menu</h5>
-        <div className="footer_links">
+        <div className="footer_links max-[768px]:items-center">
           <div className="footer_link">FAQs</div>
           <div className="footer_link">Clients</div>
           <div className="footer_link">Success Stories</div>
           <div className="footer_link">Privacy Policy</div>
         </div>
       </div>
-      <div className="footer_content w-[352px]">
+      <div className="footer_content max-[768px]:items-center max-[768px]:text-center w-[352px]  max-[1024px]:w-[220px] max-[880px]:w-[40%]">
         <h5 className="footer_title">Contact Us</h5>
-        <div className="footer_links">
+        <div className="footer_links max-[768px]:items-center">
           <div className="footer_link"> <span><FiPhoneCall size={22} /></span>+00 123 456 789</div>
           <div className="footer_link"> <span><MdOutlineMarkEmailRead size={22} /></span>hello@coaching.com</div>
           <div className="footer_link !text-white">

@@ -20,15 +20,15 @@
     left: 50%;
     transform: translate(-50%, 0);
   }
-  .responsive_card_container{
+  .responsive_card_container {
     justify-content: center;
   }
-  .responsive_card{
+  .responsive_card {
     width: 30%;
   }
   .articlies_card {
     width: 48%;
-}
+  }
 }
 @media screen and (max-width: 1024px) {
   .home_second_section {
@@ -44,5 +44,27 @@
   .home_second_section_right {
     width: 100%;
     padding: 20px;
+  }
+}
+@media screen and (max-width: 920px) {
+  .articlies_card {
+    width: 45%;
+}
+}
+@media screen and (max-width: 850px) {
+  .responsive_card_container {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .articlies_card {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .what_l_do {
+    flex-direction: column;
+  }
+  .what_l_do div {
+    width: 100%;
   }
 }

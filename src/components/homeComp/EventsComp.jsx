@@ -60,8 +60,8 @@ const EventsComp = () => {
 
   return (
     <>
-      <div className="flex gap-5  !mt-[120px] container">
-        <div className="w-[75%]">
+      <div className="flex max-[1024px]:flex-col gap-5  !mt-[120px] container">
+        <div className="w-[75%] max-[1024px]:w-full">
           <h2 className="events_title">Upcoming Events</h2>
           <div className="event_card">
             <div className="event_card_image">
@@ -69,7 +69,7 @@ const EventsComp = () => {
                 src="https://coaching.thimpress.com/healthy-coaching/wp-content/uploads/sites/49/2015/11/event-2-585x340.jpg"
                 alt=""
               />
-              <div className="card_image_dates">
+              <div className="card_image_dates max-[1024px]:!hidden">
                 <div className="card_date">
                   <p>{`${timeLeft.days}`}</p>
                   <span>Days</span>
@@ -88,14 +88,14 @@ const EventsComp = () => {
                 </div>
               </div>
             </div>
-            <div className="event_cart_content">
+            <div className="event_cart_content ">
               <div className="event_cart_content_top">
                 <div className="event_cart_content_date">
                   <div>23</div> <div>Jan</div>
                 </div>
                 <h6>Global Mentoring, Coaching and Supervision Conference</h6>
               </div>
-              <div className="event_cart_content_info">
+              <div className="event_cart_content_info max-[1024px]:!hidden">
                 <div className="event_content_data">
                   <IoMdTime size={14} /> 8:00 am - 5:00 pm
                 </div>
@@ -116,7 +116,7 @@ const EventsComp = () => {
                 src="https://coaching.thimpress.com/healthy-coaching/wp-content/uploads/sites/49/2015/12/event-3-585x340.jpg"
                 alt=""
               />
-                            <div className="card_image_dates">
+              <div className="card_image_dates max-[1024px]:!hidden">
                 <div className="card_date">
                   <p>{`${timeLeft2.days}`}</p>
                   <span>Days</span>
@@ -143,7 +143,7 @@ const EventsComp = () => {
                 </div>
                 <h6>Austin Tech Career Fair: Exclusive Tech Hiring Event</h6>
               </div>
-              <div className="event_cart_content_info">
+              <div className="event_cart_content_info  max-[1024px]:!hidden">
                 <div className="event_content_data">
                   <IoMdTime /> 12:00 am - 5:00 pm
                 </div>
@@ -160,7 +160,7 @@ const EventsComp = () => {
           </div>
         </div>
 
-        <div className="events_left">
+        <div className="events_left max-[1024px]:flex  max-[1024px]:flex-col  max-[1024px]:items-center">
           <h4>Join Our Community</h4>
           <form className="events_left_input">
             <input type="email" placeholder=" Your Email" required />{" "}
@@ -169,7 +169,7 @@ const EventsComp = () => {
             </button>
           </form>
           <h4 className="pt-[40px] pb-[25px]">Connect on Instagrams</h4>
-          <div className="events_left_img">
+          <div className="events_left_img max-[1024px]:!w-auto">
             <img
               src="https://coaching.thimpress.com/healthy-coaching/wp-content/uploads/sites/49/2023/08/box-instagram-1.jpg"
               alt=""
@@ -178,7 +178,7 @@ const EventsComp = () => {
               <SiInstagram />
             </div>
           </div>
-          <div className="events_left_img">
+          <div className="events_left_img max-[1024px]:!w-auto">
             <img
               src="https://coaching.thimpress.com/healthy-coaching/wp-content/uploads/sites/49/2023/08/box-instagram-2.jpg"
               alt=""
@@ -187,7 +187,7 @@ const EventsComp = () => {
               <SiInstagram />
             </div>
           </div>
-          <div className="events_left_img">
+          <div className="events_left_img max-[1024px]:!w-auto">
             <img
               src="https://coaching.thimpress.com/healthy-coaching/wp-content/uploads/sites/49/2023/08/box-instagram-3.jpg"
               alt=""

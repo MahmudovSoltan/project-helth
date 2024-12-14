@@ -27,7 +27,7 @@ const Home = () => {
   return (
     <>
       <section>
-        <div className="home_container flex ">
+        <div className="home_container flex max-[850px]:flex-col ">
           <HomeLeft />
           <HomeRight />
         </div>

@@ -13,7 +13,7 @@ const HomeRight = () => {
   };
 
   return (
-    <div className="home_swiper">
+    <div className="home_swiper max-[850px]:!w-[100%] ">
       <Swiper
           loop={true}
           pagination={pagination}
@@ -24,25 +24,25 @@ const HomeRight = () => {
           modules={[Pagination, Autoplay]}
           className="mySwiper"
       >
-        <SwiperSlide>
+        <SwiperSlide className="max-[850px]:h-[500px]">
           <img
             src="https://coaching.thimpress.com/healthy-coaching/wp-content/uploads/sites/49/2023/08/slide-1.jpg"
             alt=""
           />
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="max-[850px]:h-[500px]">
           <img
             src="https://coaching.thimpress.com/healthy-coaching/wp-content/uploads/sites/49/2023/08/slide-4.jpg"
             alt=""
           />
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="max-[850px]:h-[500px]">
           <img
             src="https://coaching.thimpress.com/healthy-coaching/wp-content/uploads/sites/49/2023/08/slide-2.jpg"
             alt=""
           />
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="max-[850px]:h-[500px]">
           <img
             src="https://coaching.thimpress.com/healthy-coaching/wp-content/uploads/sites/49/2023/08/slide-3.jpg"
             alt=""

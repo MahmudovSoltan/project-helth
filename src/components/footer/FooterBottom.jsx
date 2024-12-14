@@ -4,7 +4,7 @@ const FooterBottom = () => {
   return (
     <div>
       <div className="footer_line"></div>
-      <div className="container flex items-center justify-between p-[20px]">
+      <div className="container flex items-center justify-between max-[768px]:flex-col max-[768px]:gap-3 max-[768px]:pt-[30px] !p-[20px]">
         <p>Copyright WP Theme by <span className="text-[#efa213]">Thimpress.</span>  Power by WordPress</p>
         <div className="flex items-center gap-2"> 
              <span>
