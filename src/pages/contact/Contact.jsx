@@ -30,19 +30,19 @@ const Contact = () => {
   return (
     <div>
       <Banner title={"Contact"}/>
-      <section className='flex gap-[30px] container py-[80px]'>
-        <div className='w-[50%] '>
+      <section className='flex gap-[30px] container !py-[80px] max-lg:flex-col'>
+        <div className='w-[50%] max-lg:w-full '>
              <div className='p-[20px] mb-[40px]
              bg-[--fwhite] rounded-xl flex items-center gap-3'>
               <div className='w-[70px] h-[70px] bg-white text-[--primary] text-[40px] flex items-center justify-center rounded-xl hover:bg-[--primary] hover:text-[white] transition-all '>
               <IoLocationOutline />
               </div>
               <div>
-                <h5 className='text-[18px] text-[--gray] font-[550] mb-[5px]'>
+                <h5 className='text-[18px] max-sm:text-[16px] text-[--gray] font-[550] mb-[5px]'>
                 Location
                 </h5>
                 <p className='text-[--text] mb-[5px]  font-[550]'>
-                2750 Quadra Street Victoria Road, New York, Canada 
+                 New York, Canada 
                 </p>
               </div>
              </div>
@@ -52,7 +52,7 @@ const Contact = () => {
               <GoMail />
               </div>
               <div>
-                <h5 className='text-[18px] text-[--gray] font-[550] mb-[5px]'>
+                <h5 className='text-[18px] max-sm:text-[16px] text-[--gray] font-[550] mb-[5px]'>
                 EMAIL
                 </h5>
                 <p className='text-[--text] mb-[5px]  font-[550]'>
@@ -66,7 +66,7 @@ const Contact = () => {
               <LuPhone />
               </div>
               <div>
-                <h5 className='text-[18px] text-[--gray] font-[550] mb-[5px]'>
+                <h5 className='text-[18px] max-sm:text-[16px] text-[--gray] font-[550] mb-[5px]'>
                 CONTACT
                 </h5>
                 <p className='text-[--text] mb-[5px]  font-[550]'>
@@ -80,7 +80,7 @@ const Contact = () => {
               <LuClock3 />
               </div>
               <div>
-                <h5 className='text-[18px] text-[--gray] font-[550] mb-[5px]'>
+                <h5 className='text-[18px] max-sm:text-[16px] text-[--gray] font-[550] mb-[5px]'>
                 HOURS OF OPERATION
                 </h5>
                 <p className='text-[--text] mb-[5px]  font-[550]'>
@@ -89,9 +89,9 @@ const Contact = () => {
               </div>
              </div>
         </div>
-        <div className="w-[50%]  bg-[#F8F9FA] p-[30px]  rounded-xl">
+        <div className="w-[50%] max-lg:w-full  bg-[#F8F9FA] p-[30px]  rounded-xl">
           <div className='pb-[40px]  text-center'>
-          <h2 className=" text-[28px] mb-[10px]  leading-[1.3em] font-semibold">
+          <h2 className=" text-[28px] mb-[10px]  max-sm:text-[24px] leading-[1.3em] font-semibold">
           Ready to Get Started?
           </h2>
           <p className='text-[--text]'>

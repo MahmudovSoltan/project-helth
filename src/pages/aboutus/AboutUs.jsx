@@ -15,7 +15,7 @@ const AboutUs = () => {
   return (
     <div>
       <Banner title={"AboutUs"}/>
-      <section className="px-[50px] mt-[100px]">
+      <section className="px-[50px] mt-[100px] max-sm:px-[10px] ">
         <div className="home_second_section flex items-center mb-[80px]">
           <div className="home_second_section_left">
             <img
@@ -70,7 +70,7 @@ const AboutUs = () => {
         <SkilsComp/>
       </section>
       <section>
-        <CaruselComo/>
+        {/* <CaruselComo/> */}
       </section>
       <section>
         <Certifications/>

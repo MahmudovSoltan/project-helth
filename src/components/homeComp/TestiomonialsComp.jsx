@@ -11,7 +11,7 @@ const TestiomonialsComp = () => {
   return (
     <div className="mt-[120px] bg-[#f8f9fa] py-[105px]">
       <div className="container flex   max-[1024px]:flex-col  max-[1024px]:items-center">
-        <div className="w-[30%] flex items-center leading-[1.6em] text-[40px] font-semibold  max-[1024px]:mb-[10px]">
+        <div className="w-[30%] flex items-center leading-[1.6em] text-[40px] font-semibold  max-[1024px]:mb-[10px] max-[768px]:w-full">
           <h2>Testiomonials</h2>
         </div>
         <div className="w-[70%] swiper_div  max-[1024px]:w-full">

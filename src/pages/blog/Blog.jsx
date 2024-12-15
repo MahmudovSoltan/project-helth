@@ -57,12 +57,12 @@ const Blog = () => {
     <div>
       <Banner title={"Blog"} />
      <Blogsearch  setSort={setSort} sort={sort} setSearch={setSearch}/>
-      <div className="flex container">
-        <div className="w-[80%] ">
+      <div className="flex container max-[993px]:flex-col-reverse">
+        <div className="w-[80%]  max-[993px]:w-full ">
           <Blogcards blogs={newpagination} />
           <Pagination setIndex={setIndex} index={index} totalPge={buttons} />
         </div>
-        <div className="w-[20%]">
+        <div className="w-[20%]  max-[993px]:w-full">
           <BlogsideBar setCategory={setCategory} category={category} />
         </div>
       </div>

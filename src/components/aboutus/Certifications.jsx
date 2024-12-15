@@ -130,17 +130,17 @@ const Certifications = () => {
           </svg>
         </span>
       </h2>
-      <div className="flex items-center justify-between mb-[105px]">
-        <div className="w-[300px]">
+      <div className="flex items-center gap-7 justify-between mb-[105px]">
+        <div className="w-[25%]">
             <img src="https://coaching.thimpress.com/healthy-coaching/wp-content/uploads/sites/49/2023/08/certifications-1.jpg" alt="" />
         </div>
-        <div className="w-[300px]">
+        <div className="w-[25%]">
             <img src="https://coaching.thimpress.com/healthy-coaching/wp-content/uploads/sites/49/2023/08/certifications-2.jpg" alt="" />
         </div>
-        <div className="w-[300px]">
+        <div className="w-[25%]">
             <img src="https://coaching.thimpress.com/healthy-coaching/wp-content/uploads/sites/49/2023/08/certifications-3.jpg" alt="" />
         </div>
-        <div className="w-[300px]">
+        <div className="w-[25%]">
             <img src="https://coaching.thimpress.com/healthy-coaching/wp-content/uploads/sites/49/2023/08/certifications-4.jpg" alt="" />
         </div>
       </div>

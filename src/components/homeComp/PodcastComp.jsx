@@ -57,7 +57,7 @@ const PodcastComp = () => {
             Listen All
           </Link>
         </div>
-        <div className="w-[440px] prodcats_left   max-[768px]:justify-center">
+        <div className="w-[440px] prodcats_left   max-[768px]:justify-center  max-[500px]:w-full">
           <div className="w-[200px] h-[200px]">
             <img
               src="https://coaching.thimpress.com/healthy-coaching/wp-content/uploads/sites/49/2023/06/blog-8-1024x1024.png"

@@ -57,12 +57,12 @@ const Header = () => {
           <ul>
             <li>
               <div className="responsive_nav_link">
-                <Link>Home</Link>
+                <Link to={"/"}>Home</Link>
               </div>
             </li>
             <li>
               <div className="responsive_nav_link">
-                <Link>Courses</Link>
+                <Link to={"/courses"}>Courses</Link>
                 <span onClick={() => setCourse(course === true ? course=false : course = true)}>
                   <FaAngleDown />
                 </span>
@@ -88,12 +88,12 @@ const Header = () => {
             </li>
             <li>
               <div className="responsive_nav_link">
-                <Link>Podcast </Link>
+                <Link to={"/podcast"}>Podcast </Link>
               </div>
             </li>
             <li>
               <div className="responsive_nav_link">
-                <Link>Blog</Link>
+                <Link to={"/blog"}>Blog</Link>
                 <span  onClick={() => setBlog(blog === true ? blog=false : blog = true)}>
                   <FaAngleDown />
                 </span>
@@ -119,7 +119,7 @@ const Header = () => {
             </li>
             <li>
               <div className="responsive_nav_link">
-                <Link>Pages</Link>
+                <Link to={"/aboutus"}>Pages</Link>
                 <span onClick={() => setPages(pages === true ? pages=false : pages = true)}>
                   <FaAngleDown />
                 </span>
@@ -136,7 +136,7 @@ const Header = () => {
             </li>
             <li>
               <div className="responsive_nav_link">
-                <Link>Contact</Link>
+                <Link to={"/contact"}>Contact</Link>
               </div>
             </li>
           </ul>

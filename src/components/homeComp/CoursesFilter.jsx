@@ -31,7 +31,7 @@ const CoursesFilter = () => {
         Courses
       </h2>
 
-      <div className="flex items-center justify-center gap-[30px] mb-[30px]">
+      <div className="flex items-center justify-center gap-[30px] mb-[30px] flex-wrap">
         {category.map((item, index) => (
           <div
             onClick={() => handleCategoryClick(item)}

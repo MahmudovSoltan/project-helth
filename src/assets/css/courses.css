@@ -47,7 +47,6 @@
   display: flex;
   flex-direction: column;
   gap: 30px;
-  margin-right: 50px;
 }
 .courses_side_bar_container div {
   background-color: var(--fwhite);

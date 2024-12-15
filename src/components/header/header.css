@@ -135,3 +135,8 @@ nav ul li div ul li a:hover {
     display: block;
   }
 }
+@media screen and (max-width: 600px) {
+.log {
+  width: 150px;
+}
+}

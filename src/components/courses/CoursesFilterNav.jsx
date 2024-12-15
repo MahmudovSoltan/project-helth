@@ -7,10 +7,10 @@ const CoursesFilterNav = ({setSort,setSearch}) => {
         setSort(e.target.value);
     }
   return (
-    <div className='container course_filter_nav'>
+    <div className='container course_filter_nav  max-[993px]:!mt-[20px]'>
         <div className='course_filter_nav_right'>
         <div>
-       Showing 1-12 of 12 results
+       Showing  results
        </div>
        <div>
         <select  onChange={handleValue}>

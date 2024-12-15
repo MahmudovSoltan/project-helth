@@ -10,7 +10,7 @@ const Blogcards = ({blogs}) => {
       <div className="container">
         <div className="flex flex-wrap gap-[35px]">
           {blogs.map((item, index) => (
-            <div className="articlies_card border rounded-lg !w-[30%]">
+            <div className="articlies_card border rounded-lg !w-[30%] max-[993px]:!w-[45%] max-[993px]:!w-full">
               <div className="articlies_card_image">
                 <img src={item.img} alt="" />
                 <span className="add_button_filter2">
@@ -24,10 +24,10 @@ const Blogcards = ({blogs}) => {
                     <FaRegUser /> {item.author}
                   </div>
                 </div>
-                <h4 className="text-[18px] text-[#3D3C3C] my-[10px] font-semibold leading-[1.4em] transition-all hover:text-[#fcab14] cursor-pointer">
+                <h4 className="text-[18px] text-[#3D3C3C] my-[10px] font-semibold leading-[1.4em] transition-all hover:text-[#fcab14] cursor-pointer blog_title ">
                   {item.title.substring(0, 50) + "..."}
                 </h4>
-                <p className="text-[14px] text-[#636363] font-normal">
+                <p className="text-[14px] text-[#636363] font-normal blog_text">
                   {item.dec.substring(0, 200) + "..."}
                 </p>
               </div>

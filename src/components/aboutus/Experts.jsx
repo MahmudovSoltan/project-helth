@@ -6,7 +6,7 @@ import { ImFacebook } from "react-icons/im";
 const Experts = () => {
   return (
     <div className="container ">
-      <h2 className=" flex items-center justify-center flex-col text-[40px]   leading-[1.3em] font-semibold mb-[80px] mt-[105px]">
+      <h2 className=" flex  items-center justify-center flex-col text-[40px]   leading-[1.3em] font-semibold mb-[80px] mt-[105px]">
         Our Experts
         <span>
           <svg
@@ -133,7 +133,7 @@ const Experts = () => {
           </svg>
         </span>
       </h2>
-      <div className="flex items-center justify-between">
+      <div className="flex flex-wrap items-center  max-[1250px]:justify-center  max-[1250px]:gap-[50px] justify-between">
         <div className="mb-[105px] flex flex-col justify-center items-center">
           <div className="w-[300px] relative expert_image">
             <img

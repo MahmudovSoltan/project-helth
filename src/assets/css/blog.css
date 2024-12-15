@@ -34,3 +34,15 @@
 .blob_popular_text h6{
     font-size: 14px;
 }
+.blog_title{
+    display: -webkit-box; /* Flex konteyner */
+    -webkit-box-orient: vertical; /* Şaquli istiqamət */
+    overflow: hidden; /* Sınırda artıq olanları gizlət */
+    -webkit-line-clamp: 2;
+}
+.blog_text{
+    display: -webkit-box; /* Flex konteyner */
+    -webkit-box-orient: vertical; /* Şaquli istiqamət */
+    overflow: hidden; /* Sınırda artıq olanları gizlət */
+    -webkit-line-clamp: 3; 
+}

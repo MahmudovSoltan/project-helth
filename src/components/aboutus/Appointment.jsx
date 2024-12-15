@@ -29,15 +29,15 @@ console.log(error);
   return (
     <div className=" bg-[#f8f9fa] py-[105px] mb-[80px]">
       <div className="container flex gap-[30px]">
-        <div className="w-[50%] ">
+        <div className="w-[50%] max-md:hidden ">
           <img
             className="rounded-xl"
             src="https://coaching.thimpress.com/healthy-coaching/wp-content/uploads/sites/49/2023/08/slide-2.jpg"
             alt=""
           />
         </div>
-        <div className="w-[50%] bg-white p-[30px] rounded-xl">
-          <h2 className=" text-[40px] pb-[40px] leading-[1.3em] font-semibold">
+        <div className="w-[50%] bg-white p-[30px] rounded-xl max-md:w-full">
+          <h2 className=" text-[40px] pb-[40px] leading-[1.3em] font-semibold max-lg:text-[28px]">
             Book Appointment
             <span>
               <svg

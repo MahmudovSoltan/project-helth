@@ -46,6 +46,7 @@
     padding: 20px;
   }
 }
+
 @media screen and (max-width: 920px) {
   .articlies_card {
     width: 45%;
@@ -67,4 +68,14 @@
   .what_l_do div {
     width: 100%;
   }
+}
+@media screen and (max-width: 730px) {
+ .event_card{
+  flex-direction: column;
+ }
+ .event_card_image,
+ .event_cart_content{
+  width: 100%;
+ }
+
 }
