@@ -8,6 +8,7 @@ import Podcast from './pages/podcast/Podcast';
 import Blog from './pages/blog/Blog';
 import AboutUs from './pages/aboutus/AboutUs';
 import Contact from './pages/contact/Contact';
+import Basket from './pages/card/Basket';
 const App = () => {
   window.scrollTo({
     top: 0,
@@ -23,6 +24,7 @@ const App = () => {
           <Route path='/blog' element={<Blog />} />
           <Route path='/aboutus' element={<AboutUs />} />
           <Route path='/contact' element={<Contact />} />
+          <Route path='/card' element={<Basket />} />
         </Route>
       </Routes>
       <Scrollbutton/>

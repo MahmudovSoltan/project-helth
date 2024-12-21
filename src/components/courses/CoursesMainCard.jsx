@@ -2,9 +2,12 @@ import React from "react";
 import { FaRegUser, FaSignal } from "react-icons/fa";
 import { LuFileSpreadsheet } from "react-icons/lu";
 import { MdAdd } from "react-icons/md";
+import { useDispatch, useSelector } from "react-redux";
+import { addToBasket } from "../../redux/slices/basketSlice";
 
 const CoursesMainCard = ({filterProduct}) => {
-
+  const dispatch = useDispatch();
+  const { basket } = useSelector((state) => state.cards);
   return (
 
     <>
@@ -13,7 +16,7 @@ const CoursesMainCard = ({filterProduct}) => {
         <div key={i} className="w-[45%] max-[850px]:!w-full border rounded-lg  ">
           <div className="filter_img w-[100%]  relative">
           <img className=" cursor-pointer" src={item.img} alt="" />
-          <span className='add_button_filter'><MdAdd/></span>
+          <span className='add_button_filter' onClick={()=>dispatch(addToBasket(item))}><MdAdd/></span>
           </div>
           <div className="product_cartd_bottom px-[20px] py-[15px] flex flex-col gap-[15px]">
             <div className="flex  items-center justify-between">

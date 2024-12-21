@@ -1,0 +1,26 @@
+@media (max-width: 1024px) {
+  .basket_contaainer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .basket_total_container {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .basket_item_container {
+    width: 90%;
+  }
+}
+@media (max-width: 768px) {
+  .basket_item {
+    flex-direction: column;
+  }
+  .basket_item_info {
+    width: 100%;
+  }
+  .basket_item_action {
+    width: 100%;
+  }
+}
+

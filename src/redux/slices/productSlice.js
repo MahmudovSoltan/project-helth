@@ -2,6 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 const initialState = {
   products: [
     {
+      id: 1,
       title: "Content Marketing Certification Course",
       category: "Career Coaching",
       price:0,
@@ -14,6 +15,7 @@ const initialState = {
           priceCatagory:"Free"
     },
     {
+      id: 2,
       title: "Business Analytics Course Program(Data Scientist)",
       category: "Career Coaching",
       price:80.0,
@@ -25,6 +27,7 @@ const initialState = {
        priceCatagory:"Paid"
     },
     {
+      id: 3,
       title: "Mini MBA Course – Lean Business",
       category: "Career Coaching",
       price: 30.0,
@@ -36,6 +39,7 @@ const initialState = {
        priceCatagory:"Paid"
     },
     {
+      id: 4,
       title: "Professional Course Of Sales Skills And",
       category: "Coaching",
       img: "https://coaching.thimpress.com/healthy-coaching/wp-content/uploads/sites/49/2022/09/course-5.jpg",
@@ -47,6 +51,7 @@ const initialState = {
        priceCatagory:"Paid"
     },
     {
+      id: 5,
       title: "Method of online business from home with Authority Site",
       category: "Coaching",
       img: "https://coaching.thimpress.com/healthy-coaching/wp-content/uploads/sites/49/2022/09/course-1.jpg",
@@ -58,6 +63,7 @@ const initialState = {
        priceCatagory:"Paid"
     },
     {
+      id: 6,
       title: "Building a business on the Internet",
       category: "Coaching",
       img: "https://coaching.thimpress.com/healthy-coaching/wp-content/uploads/sites/49/2022/06/course-7.jpg",
@@ -69,6 +75,7 @@ const initialState = {
         priceCatagory:"Free"
     },
     {
+      id: 7,
       title: "Effective online business method for products",
       category: "Dieting",
       img: "https://coaching.thimpress.com/healthy-coaching/wp-content/uploads/sites/49/2022/06/course-8.png",
@@ -80,6 +87,7 @@ const initialState = {
       priceCatagory:"Paid"
     },
     {
+      id: 8,
       title:
         "Complete retail on Facebook, Zalo, Shopee to have thousands of orders",
       category: "Dieting",
@@ -92,6 +100,7 @@ const initialState = {
        priceCatagory:"Free"
     },
     {
+      id: 9,
       title: "Make money from selling on Smartphone",
       category: "Dieting",
       img: "https://coaching.thimpress.com/healthy-coaching/wp-content/uploads/sites/49/2022/09/course-1.jpg",
@@ -103,6 +112,7 @@ const initialState = {
        priceCatagory:"Paid"
     },
     {
+      id: 10,
       title:
         "Complete set of Marketing, the art of selling online from basic to actual sales, billions of",
       category: "Heathy",
@@ -115,6 +125,7 @@ const initialState = {
        priceCatagory:"Paid"
     },
     {
+      id: 11,
       title: "Learn Amazon Dropshiping from idea to practice.",
       category: "Heathy",
       img: "https://coaching.thimpress.com/healthy-coaching/wp-content/uploads/sites/49/2022/09/course-5.jpg",
@@ -126,6 +137,7 @@ const initialState = {
        priceCatagory:"Paid"
     },
     {
+      id: 12,
       title: "Implement your own online business",
       category: "Heathy",
       img: "https://coaching.thimpress.com/healthy-coaching/wp-content/uploads/sites/49/2022/09/course-5.jpg",

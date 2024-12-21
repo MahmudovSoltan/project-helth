@@ -7,7 +7,6 @@ import { useSelector } from "react-redux";
 import CoursesSideBar from "../../components/courses/CoursesSideBar";
 import Pagination from "../../components/pagination/Pagination";
 import CoursesMainCard from "../../components/courses/CoursesMainCard";
-import { CiMenuFries } from "react-icons/ci";
 import { RiMenu5Fill } from "react-icons/ri";
 import CoursesSideBarRes from "../../components/courses/CoursesSideBarRes";
 const Courses = () => {
